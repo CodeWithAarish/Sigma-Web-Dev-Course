@@ -1,0 +1,139 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo img {
+    width: 164px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Segoe UI";
+}
+
+.right ul {
+    display: flex;
+    gap: 34px;
+}
+
+.right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.right ul li span {
+    padding: 0 5px;
+}
+
+.first{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+    gap: 23px;
+    margin: 70px;
+}
+
+.first span{
+    font-size: 40px;
+}
+
+section span img{
+    width: 82px;
+    margin: 0 23px;
+}
+
+.first p{
+    font-size: 23px;
+    width: 60vw;
+    text-align: center;
+}
+
+.btn{
+    background: #00b6d1;
+    padding: 14px 16px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    margin: 12px 0;
+    cursor: pointer;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.flex{
+    display: flex;
+}
+
+.small{
+    font-size: 12px;
+}
+
+.second{
+    max-width: 65vw;
+    margin: auto;
+    /* background-color: aquamarine; */
+}
+
+.blue{
+    background: #00b6d1;
+    font-size: 12px;
+}
+
+.green{
+    background: #5cb85c;
+    font-size: 12px;
+}
+
+.item{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 23px;
+    background: #f9f9f9;
+    font-size: 20px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.item-lang{
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 36px;
+}
+
+.grid{
+    margin: 45px 0 0 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.download :nth-child(2){
+    font-size: 23px;
+}
+
+.download img{
+    padding: 0px 12px;
+}
+
+.download{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+@media screen and (max-width: 1145px) {
+    .grid{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
