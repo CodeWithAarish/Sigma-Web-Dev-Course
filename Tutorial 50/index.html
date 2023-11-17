@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Filter</title>
+    <style>
+        .img1{
+            filter: blur(10px);
+        }
+        .srk{
+            /* filter: brightness(122%); */
+            filter: opacity(1);
+        }
+        .ak{
+            /* filter: contrast(10px); */
+            /* filter: grayscale(122); */
+            /* filter: sepia(110); */
+            /* filter: drop-shadow(20px 20px 20px red); */
+            filter: invert(1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://pilbox.themuse.com/image.jpg?filter=antialias&h=385&opt=1&pos=top-left&prog=1&q=keep&url=https%3A%2F%2Fcms-assets.themuse.com%2Fmedia%2Flead%2F01212022-1047259374-coding-classes_scanrail.jpg&w=700" alt="" class="img1">
+        <img src="https://static.toiimg.com/thumb/msid-103526119,width-1280,resizemode-4/103526119.jpg" alt="" class="srk">
+        <img src="https://images.hindustantimes.com/img/2022/11/12/550x309/akshay_kumar_1659860706633_1668255913307_1668255913307.jpg" alt="" class="ak">
+    </div>
+</body>
+</html>
