@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
 
 * {
     margin: 0;
@@ -87,15 +87,18 @@ nav button {
 }
 
 .btn {
+    font-family: 'Poppins', sans-serif;
     padding: 3px 8px;
-    font-weight: bold;
+    font-weight: 400;
     color: white;
     background-color: rgba(248, 243, 243, 0.021);
     border: 1px solid white;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .btn-red {
+    font-weight: 400;
     background-color: red;
     color: white;
     padding: 3px 24px;
@@ -118,9 +121,49 @@ nav button {
 
 .main input {
     padding: 7px 101px 8px 14px;
-    font-weight: 700;
+    color: white;
     font-size: 12px;
     border-radius: 4px;
     background-color: rgba(23, 23, 23, 0.7);
     border: 1px solid rgba(246, 238, 238, 0.5);
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+}
+
+.secImg{
+    margin: 20px 0;
+    position: relative;
+}
+
+.secImg img{
+     width: 37vw;
+     position: relative;
+     z-index: 10;
+}
+
+.secImg video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+}
+
+section.first > div{
+    display: flex;
+    flex-direction: column;
+}
+
+section.first > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+section.first > div :nth-child(2){
+    font-size: 24px;
 }
